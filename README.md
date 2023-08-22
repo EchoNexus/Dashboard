@@ -1,2 +1,5 @@
 # Dashboard
-EchoNexus' dashboard for our bots. Visit at [dashboard.echonexus.pro](https://dashboard.echonexus.pro/)
+
+an expressjs + ejs + mongodb dashboard for echonexus bots
+
+Visit at dashboard.echonexus.pro
