@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <header>
+        <h1>EchoNexus Dashboard</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#" class="tab-link active" data-tab="settings">Settings</a></li>
+            <li><a href="#" class="tab-link" data-tab="logs">Logs</a></li>
+        </ul>
+    </nav>
+    <section class="content">
+        <div id="settings-tab" class="tab-content active">
+            <div class="dashboard-section">
+                <h2>Bot Settings</h2>
+                <div class="setting-card">
+                    <h3>Prefix:</h3>
+                    <p>Configure your bot's prefix for commands:</p>
+                    <input type="text" id="bot-prefix" placeholder="Enter Bot Prefix">
+                    <button class="update-button">Update Prefix</button>
+                </div>
+                <!-- Add more settings here -->
+            </div>
+        </div>
+        <div id="logs-tab" class="tab-content">
+            <div class="dashboard-section">
+                <h2>Logs</h2>
+                <div class="log-entries", id="log-entries">
+                    <!-- Logs will be dynamically added here -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2023 Your Discord Bot Dashboard. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
